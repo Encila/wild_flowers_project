@@ -22,9 +22,17 @@ Welcome to my internship projects repository! This repo includes various project
 - **Infrared (IR) Database**: Collection of infrared images used for training and testing.
 - **Visible Light Database**: Collection of visible light images used for training and testing.
 
-## 📜 Documentation
+## Documentation
 
 Check the `📜 - Documentation` folder for detailed information on each project, including setup instructions, usage guides, and technical specifications.
+
+## 🚀 Installation
+
+To install the projects, simply clone the repository to your local machine:
+
+```bash
+git clone --recurse-submodules https://github.com/Encila/wild_flowers_project.git
+```
 
 ## 🔗 Links
 
