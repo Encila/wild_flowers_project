@@ -7,10 +7,10 @@
 
 1. **Clone the Flower Detection Repository:**
    - Clone the repository containing the flower detection scripts:
-     ```sh
+      ```sh
 git clone https://github.com/Encila/RPi5-flower-detection.git
 cd RPi-flower-detection
-     ```
+   ```
    - The README file will guide you through the installation process.
 
 3. **Install MiniConda and the Required Dependencies :** 
