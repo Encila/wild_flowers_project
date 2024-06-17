@@ -6,7 +6,7 @@ Welcome to my internship projects repository! This repo includes various project
 ## 📂 What's Inside
 
 ### 1. 🤖 - Machine Learning Model
-- **Teachable Machine**: Experiments and models created using Google's Teachable Machine (included in the RPi5-flower-detection project).
+- **Teachable Machine**: Experiments and models created using Google's Teachable Machine.
 
 ### 2. 🍓 - Raspberry Pi Development
 - **RPi5-flower-detection**: Image recognition software running on Raspberry Pi 5. [GitHub Link](https://github.com/Encila/RPi5-flower-detection)
