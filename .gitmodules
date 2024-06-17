@@ -1,0 +1,6 @@
+[submodule "🍓 - Raspberry Pi Development/RPi5-flower-detection"]
+	path = 🍓 - Raspberry Pi Development/RPi5-flower-detection
+	url = https://github.com/Encila/RPi5-flower-detection
+[submodule "🍓 - Raspberry Pi Development/VideoRecorder"]
+	path = 🍓 - Raspberry Pi Development/VideoRecorder
+	url = https://github.com/Encila/VideoRecorder
