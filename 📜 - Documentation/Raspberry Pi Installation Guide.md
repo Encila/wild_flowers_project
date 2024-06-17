@@ -41,7 +41,7 @@
 
 6. **Install the Touchscreen :**
    - Use the command to install a virtual keyboard
-	```bash
+```bash
 	sudo apt install wvkbd
 ```
    - In File Manager > Edit > Preferences > General, take out the tick of "Do not ask option on executable launch" and put one on "Open files with single click" to avoid confirmation popups and be able to open the shortcup from the touchscreen easily.
