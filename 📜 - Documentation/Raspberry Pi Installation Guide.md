@@ -1,4 +1,6 @@
-# Hardware Requirements
+# Raspberry Pi 5 Installation Guide
+
+## Hardware Requirements
 
 - Raspberry Pi 5
 - Modul 3 IR and visible cameras
@@ -8,7 +10,7 @@
 - USB keyboard and mouse
 - 7' Touchscreen
 
-# Step-by-Step Installation
+## Step-by-Step Installation
 
 1. **Prepare the SD Card:**
    - Download the latest Raspberry Pi OS from the official website.
