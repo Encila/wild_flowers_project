@@ -19,7 +19,7 @@ Welcome to my internship projects repository! This repo includes various project
 - **Comprehensive Documentation**: Detailed technical documents and recommendations for future improvements.
 
 ### 5. 📚 - Databases
-- **Infrared (IR) Database**: Collection of infrared images used for training and testing.
+- ~~**Infrared (IR) Database**: Collection of infrared images used for training and testing.~~
 - **Visible Light Database**: Collection of visible light images used for training and testing.
 
 ## 🚀 Installation
