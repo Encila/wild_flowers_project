@@ -32,7 +32,7 @@
      sudo apt update
      sudo apt upgrade
      ```
-   -  The admin account logs are : _fablabensefea / rpi5fablab_ 
+   -  The admin account logs are : _fablabensfea / rpi5fablab_ 
 
 5. **Set Up Cameras:**
    - Connect one of the Modul 3 cameras to the Raspberry Pi (only two MIPI connectors).
