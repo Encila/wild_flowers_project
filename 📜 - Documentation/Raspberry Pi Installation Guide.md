@@ -33,13 +33,13 @@
    -  The admin account logs are : _fablabensefea / rpi5fablab_ 
 
 5. **Set Up Cameras:**
-   - Connect the Modul 3 cameras to the Raspberry Pi.
+   - Connect one of the Modul 3 cameras to the Raspberry Pi (only two MIPI connectors).
    - Ensure the cameras are detected using the command:
      ```sh
      rpicam-hello
      ```
 
-6. **Install the Touchscreen :**
+6. **Install the Touchscreen:**
    - Use the command to install a virtual keyboard
 ```bash
 	sudo apt install wvkbd
@@ -47,7 +47,7 @@
    - In File Manager > Edit > Preferences > General, take out the tick of "Do not ask option on executable launch" and put one on "Open files with single click" to avoid confirmation popups and be able to open the shortcup from the touchscreen easily.
    - A toggle script can be created on the homepage.
    
- 7. Information about the PowerBanks :
+ 7. **Information about the PowerBanks:**
    - The RPi5 needs 27W to work well. The touchscreen needs 1W to work well. An alert appears when the touchscreen and the RPi5 are interconnected and wired on one powerbank. 
    - We discovered even with a powerbank for each component (RPi5 and touchscreen) we still have this alert about 10 min after launching the nano-controller.
    - The solution would be to use a better powerbank.
