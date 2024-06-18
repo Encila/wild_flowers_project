@@ -86,17 +86,17 @@ python main.py
     
 4. **Error Handling and Debugging:** 
     -  The current Picamera2 version contains an issue about previews. To patch it, you'll have to correct this files :
-```sh
+   ```sh
 cd ~/miniconda3/envs/flower_detection//lib/python3.11/site-packages/picamera2/encoders
 nano libav_h264_encoder.py
 nano libav_mjpeg_encoder.py
 ```
     In the `_encode_`function, you will have to replace this line :
-```py
+   ```py
 frame = av.VideoFrame.from_ndarray(m.array, format=self._av_input_format, width=self.width)
 ```
     For this line : 
-```py
+   ```py
 frame = av.VideoFrame.from_ndarray(m.array, format=self._av_input_format)
 ```
     The error will be then patched from now on.
