@@ -62,24 +62,24 @@ Based on the outcomes and issues encountered, the following recommendations are 
 
 1. **Clone the VideoRecorder Repository:**
    - Clone the repository containing the video recording scripts:
-```sh
-git clone https://github.com/Encila/VideoRecorder.git
-cd VideoRecorder
-```
+   ```sh
+   git clone https://github.com/Encila/VideoRecorder.git
+   cd VideoRecorder
+   ```
    - The README file will guide you through the installation process.
 
 2. **Activate MiniConda and the Required Dependencies:** 
    - Make sure the paths are correct.
    - Use the setup file :
-```sh
-source setup.sh
-```
+   ```sh
+   source setup.sh
+   ```
    - Ensure there are no problems during the installation.
    
 3. **Run the VideoRecorder Script:**
     - Execute the main video recording script :
    ```sh
-python main.py
+   python main.py
    ```
     - You can use the `--duration`, `--width`, and `--height` args to change the recording settings.
     - You can also use the shortcut on the Desktop.
@@ -87,18 +87,18 @@ python main.py
 4. **Error Handling and Debugging:** 
     -  The current Picamera2 version contains an issue about previews. To patch it, you'll have to correct this files :
    ```sh
-cd ~/miniconda3/envs/flower_detection//lib/python3.11/site-packages/picamera2/encoders
-nano libav_h264_encoder.py
-nano libav_mjpeg_encoder.py
-```
+   cd ~/miniconda3/envs/flower_detection//lib/python3.11/site-packages/picamera2/encoders
+   nano libav_h264_encoder.py
+   nano libav_mjpeg_encoder.py
+   ```
     In the `_encode_`function, you will have to replace this line :
    ```py
-frame = av.VideoFrame.from_ndarray(m.array, format=self._av_input_format, width=self.width)
-```
+   frame = av.VideoFrame.from_ndarray(m.array, format=self._av_input_format, width=self.width)
+   ```
     For this line : 
    ```py
-frame = av.VideoFrame.from_ndarray(m.array, format=self._av_input_format)
-```
+   frame = av.VideoFrame.from_ndarray(m.array, format=self._av_input_format)
+   ```
     The error will be then patched from now on.
     - Common issues include camera not detected or poor image quality.
     - Ensure cameras are properly connected and use the `vcgencmd` or `rpicam-hello` commands to verify detection.
